@@ -1,0 +1,35 @@
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	margin-top: 4rem;
+
+	div {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+
+		font-weight: bold;
+		font-size: 0.875rem;
+	}
+}
+
+.highlightedNumber {
+	border-radius: 999px;
+
+	background: var(--gray-400);
+	color: var(--gray-100);
+
+	padding: 0.125rem 0.5rem;
+
+	font-size: 0.75rem;
+}
+
+.created {
+	color: var(--blue-300);
+}
+
+.completed {
+	color: var(--purple-300);
+}

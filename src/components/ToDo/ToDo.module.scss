@@ -1,0 +1,49 @@
+.ToDo {
+	color: var(--gray-100);
+	background: var(--gray-500);
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+	gap: 0.75rem;
+
+	padding: 1rem;
+
+	border: 1px solid var(--gray-400);
+	border-radius: 8px;
+
+	div {
+		flex: 1;
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+
+		font-size: 0.875rem;
+		font-weight: 400;
+
+		p {
+			text-align: justify;
+			padding-right: 1rem;
+		}
+	}
+
+	& + & {
+		margin-top: 0.875rem;
+	}
+}
+
+.deleteButton {
+	border: 0;
+	background: transparent;
+
+	svg {
+		color: var(--gray-300);
+	}
+}
+
+.completed {
+	div {
+		color: var(--gray-300);
+		text-decoration: line-through;
+	}
+}

@@ -1,0 +1,25 @@
+.checkbox {
+	width: 1.5rem;
+	height: 1.5rem;
+
+	border-radius: 50%;
+	border: 0;
+
+	color: var(--gray-100);
+
+	transition: all 0.2s;
+}
+
+.notChecked {
+	background: transparent;
+
+	border: 2px solid var(--blue-300);
+}
+
+.checked {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background: var(--purple-700);
+}

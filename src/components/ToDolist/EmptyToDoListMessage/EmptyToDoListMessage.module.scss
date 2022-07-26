@@ -1,0 +1,22 @@
+.container {
+	height: 244px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+
+	margin-top: 1.5rem;
+
+	border-radius: 8px;
+	border-top: 1px solid var(--gray-400);
+
+	color: var(--gray-300);
+
+	span {
+		display: block;
+
+		font-weight: bold;
+	}
+}
